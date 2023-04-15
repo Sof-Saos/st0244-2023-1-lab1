@@ -1,7 +1,7 @@
 <h1 align="center"> st0244-2023-1-lab1 </h1>
 
 <h2> Short Description about the project: </h2>
-This project uses interoperability to read a txt file of integers, store them in an array and average them with a c++ function, returning the result in a double.  
+<p> This project uses interoperability to read a txt file of integers, store them in an array and average them with a c++ function, returning the result in a double. </p>
 
 
 ***NAMES:*** Sara Zuluaga Trujillo & Sofía Salamanca Osorio
