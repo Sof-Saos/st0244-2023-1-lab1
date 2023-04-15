@@ -1,6 +1,6 @@
 #include <jni.h>
 #include <iostream>
-#include "Prueba.h"
+#include "Lab1.h"
 
   JNIEXPORT jdouble JNICALLJava_Prueba_nativeRead(JNIEnv *env, jobject obj, jintArray array) {
     jint *arr = env->GetIntArrayElements(array, NULL);
