@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.io.IOException;
 
-public class Prueba{
+public class Lab1{
     static {
-        System.loadLibrary("prueba");
+        System.loadLibrary("lab1");
     }
 
     private native double nativeRead(int[] array);
@@ -43,7 +43,7 @@ public class Prueba{
         intBuffer.put(array);
         System.out.println("El arreglo es " + intBuffer);
         //nativeRead();
-        new Prueba().readArray(array)
+        new lab1().readArray(array)
        
     }
 }
