@@ -41,7 +41,7 @@ public class Lab1{
         }
       
         double mean = new Lab1().nativeRead(array); //we create an instance and call the method with the argument
-        System.out.println("The mean is" + mean); //prints the mean value
+        System.out.println("The mean is: " + mean); //prints the mean value
        
     }
 }
