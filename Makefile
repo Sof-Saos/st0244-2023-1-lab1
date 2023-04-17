@@ -5,7 +5,7 @@ all : compile run
 
 compile : Lab1.java Mean.cc 
         javac -h . Lab1.java
-        g++ -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o liblab1.so Mean.cc
+        g++ -fPIC -I"$(JAVA_HOME)/include" -I"$(JAVA_HOME)/include/linux" -shared -o liblab1.so Mean.cc
 
 #this rule runs the program
 run : Lab1.java intgs.txt
