@@ -11,4 +11,4 @@ run : Lab1.class Lab1.java my-file.txt
     java -Djava.library.path=. Lab1 my-file.txt
 
 clean : 
-       rm -f *.class *.so
+       rm -f *.class *.so *.h
