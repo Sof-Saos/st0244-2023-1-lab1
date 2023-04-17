@@ -7,8 +7,8 @@ compile : Lab1.java Mean.cc
         javac -h . -Xlint:all,-serial -Werror Lab1.java
         g++ $(ER) -I"$(JAVA_HOME)/include" -I"$(JAVA_HOME)/include/linux" -shared -o liblab1.so Mean.cc
 
-run : Lab1.class Lab1.java intgs.txt
-    java -Djava.library.path=. Lab1 intgs.txt
+run : Lab1.class Lab1.java my-file.txt
+    java -Djava.library.path=. Lab1 my-file.txt
 
 clean : 
        rm -f *.class *.so
