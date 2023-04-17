@@ -1,8 +1,4 @@
-var : 
-     export JAVA_HOME=/usr/lib/jvm/java-19-openjdk-amd64
-     echo $$JAVA_HOME
-     export PATH=$$PATH:$$JAVA_HOME/bin
-     echo $$PATH
+
 #This rule compile the program
 compile : Lab1.java Mean.cc 
         javac -h . Lab1.java
