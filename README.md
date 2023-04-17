@@ -1,8 +1,5 @@
 <h1 align="center"> st0244-2023-1-lab1 </h1>
 
-<h2> Short Description about the project: </h2>
-<p> This project uses interoperability to read a txt file of integers, store them in an array and average them with a c++ function, returning the result in a double. </p>
-
 
 ***NAMES:*** Sara Zuluaga Trujillo & Sofía Salamanca Osorio
 
@@ -17,4 +14,4 @@
 - [Tutorial followed #2](https://riptutorial.com/java/example/650/calling-cplusplus-methods-from-java)
 - [Configuration of environment variables](https://vitux.com/how-to-setup-java_home-path-in-ubuntu/)
 - [video example tutorial](https://www.youtube.com/watch?v=41leCIAzSd0&t=868s)
-- [Explanation of interoperability](https://www.group4layers.com/es/blog/2021-12-28/interoperabilidad-software-lenguajes-programacion-mejorando-java-con-c-cpp-eficiente)
+- [Explanation of int](https://www.group4layers.com/es/blog/2021-12-28/interoperabilidad-software-lenguajes-programacion-mejorando-java-con-c-cpp-eficiente)
