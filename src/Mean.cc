@@ -1,7 +1,7 @@
 #include <jni.h>
 #include "Lab1.h"
 
-  JNIEXPORT jdouble JNICALLJava_Lab1_nativeRead(JNIEnv *env, jobject obj, jintArray array) { //we define the function that calls the function previously defined in the java program
+  JNIEXPORT jdouble JNICALL Java_Lab1_nativeRead(JNIEnv *env, jobject obj, jintArray array) { //we define the function that calls the function previously defined in the java program
     
     jint *arr = env->GetIntArrayElements(array, NULL); //we get a pointer to the elements of the jintArray object
     jsize len = env->GetArrayLength(array); //we get the size of the array
